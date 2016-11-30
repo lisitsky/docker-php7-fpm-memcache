@@ -40,12 +40,12 @@ RUN buildDeps=" \
 	&& docker-php-ext-configure gd --enable-gd-native-ttf --with-jpeg-dir=/usr/lib/x86_64-linux-gnu --with-png-dir=/usr/lib/x86_64-linux-gnu --with-freetype-dir=/usr/lib/x86_64-linux-gnu \
 	&& docker-php-ext-install gd \
 	&& docker-php-ext-configure ldap --with-libdir=lib/x86_64-linux-gnu \
-	&& docker-php-ext-install ldap \
+#	&& docker-php-ext-install ldap \
 	&& docker-php-ext-install mbstring \
-	&& docker-php-ext-install mcrypt \
-	&& docker-php-ext-install mysqli \
+#	&& docker-php-ext-install mcrypt \
+#	&& docker-php-ext-install mysqli \
 	&& docker-php-ext-install pdo_mysql \
-	&& docker-php-ext-install zip \
+#	&& docker-php-ext-install zip \
 	&& apt-get purge -y --auto-remove $buildDeps \
 	&& cd /usr/src/php \
 	&& make clean

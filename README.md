@@ -20,18 +20,18 @@
 	hash
 	iconv
 	json
-	ldap
+	;ldap
 	libxml
 	mbstring
 	mcrypt
 	memcache
-	mysqli
+	;mysqli
 	mysqlnd
 	openssl
 	pcre
 	PDO
 	pdo_mysql
-	pdo_sqlite
+	;pdo_sqlite
 	Phar
 	posix
 	readline
