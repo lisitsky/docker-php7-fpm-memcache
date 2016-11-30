@@ -1,4 +1,4 @@
-FROM php:7.0.5-fpm
+FROM php:7.0.13-fpm
 
 MAINTAINER neo <liang.gong@gmail.com>
 
