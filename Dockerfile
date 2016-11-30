@@ -73,5 +73,5 @@ RUN sed -i 's/;\(cgi\.fix_pathinfo=\)1/\10/' /usr/local/etc/php/php.ini
 #    && make install \
 #    && echo "extension=memcache.so" > /usr/local/etc/php/conf.d/ext-memcache.ini 
  
-
+ 
 WORKDIR /var/www
